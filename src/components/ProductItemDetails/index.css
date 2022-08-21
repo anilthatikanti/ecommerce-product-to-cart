@@ -1,0 +1,101 @@
+/* Write your CSS here */
+.itemContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.items {
+  width: 30%;
+  border-radius: 20px;
+  margin: 20px;
+}
+span {
+  font-weight: 600;
+  color: #171f46;
+}
+.price {
+  font-size: 20px;
+}
+.rating {
+  background-color: #3b82f6;
+  border-radius: 4px;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  line-height: 2;
+}
+.starIcon {
+  height: 10px;
+  margin-left: 2px;
+}
+.review-ratingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+  margin-top: 20px;
+}
+.lightFont {
+  color: #616e7c;
+}
+.hr-line {
+  height: 2px;
+  background-color: #cbced2;
+  border-width: 0px;
+}
+.quantityContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+.increase-decreaseBtn {
+  border-width: 0px;
+  background-color: transparent;
+  line-height: 1.5;
+  width: 25px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.addToCartBtn {
+  border-width: 0px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  outline: none;
+  line-height: 2.5;
+  border-radius: 4px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+.similarCardContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.review {
+  display: flex;
+  align-items: center;
+}
+.continueShoppingBtn {
+  border-width: 0px;
+  background-color: #3b82f6;
+  outline: none;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 10px;
+}
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
